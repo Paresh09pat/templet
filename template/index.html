@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+		<title>HRMS Admin Template - Documentation</title>
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+		
+		<!-- Fontawesome CSS -->
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+		
+		<!-- Styles -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">		
+		<link rel="stylesheet" href="assets/css/style.css">
+		
+	</head>
+
+	<body data-bs-spy="scroll" data-bs-target="#sidebar-menu" data-bs-offset="100">
+		
+		<div class="main-wrapper">
+			<!-- Header -->
+			<header>
+				<nav class="navbar" id="home">
+					<div class="container-fluid">
+						<div class="navbar-left">
+							<a class="navbar-brand" href="index.html">
+								<img class="logo-dark" src="assets/img/dreamguys-logo.png" alt="logo">
+							</a>
+						</div>
+						<div class="action-list">
+							<a class="btn btn-primary btn-live" target="_blank" href="https://smarthr.dreamguystech.com/">Live Demo <i class="fas fa-arrow-right ps-2"></i></a>
+							<a class="support-btn" target="_blank" href="https://themeforest.net/user/dreamguys"><img class="img-fluid" src="assets/img/headset_mic.png" alt="icon"> Support</a>
+						</div>
+					</div>
+				</nav>
+				
+				<!-- Mobile Menu Toggle -->
+				<a class="mobile_btn" id="mobile_btn">
+					<i class="fas fa-bars"></i>
+				</a>
+				<!-- /Mobile Menu Toggle -->
+				
+			</header>
+			<!-- Header -->
+			
+			<!-- Main Wrapper -->
+		
+			<div class="sidebar" id="sidebar">
+				<div class="sidebar-inner slimscroll">
+					<div id="sidebar-menu" class="sidebar-menu sidebar-body">
+						<h2>Table Of Content</h2>
+						<ul class="nav nav-sidebar">
+							<li class="nav-item">
+								<a class="nav-link" href="#introduction">1.Overview</a>
+								<ul>
+									<li class="nav-item">
+										<a class="nav-link" href="#features">1.1. Features</a>
+									</li>										
+									<li class="nav-item">
+										<a class="nav-link" href="#installation">1.2. Installation Guide</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#requirements">1.3. Requirements</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#file_structure">2. STRUCTURE</a>
+								<ul>
+									<li class="nav-item">
+										<a class="nav-link" href="#file_structure">2.1. Files Structures</a>
+									</li>																			
+									<li class="nav-item">
+										<a class="nav-link" href="#css_structure">2.2. styles</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#scripts">2.3. Scripts</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#credits">3. CREDITS</a>
+							</li>
+							<!-- <li class="nav-item">
+								<a class="nav-link" href="#changelog">4. CHANGE LOG</a>
+							</li> -->
+							<li class="nav-item">
+								<a class="nav-link" href="#support">4. SUPPORT</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#thanks">5. THANK YOU</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="page-wrapper" id="introduction">
+				<div class="content container-fluid">
+					<div class="logo">
+						<a class="main-logo" href="index.html">
+							<img class="img-fluid" src="assets/img/logo.png" alt="logo">
+						</a>
+					</div>
+					<p><strong>HRMS Admin Template</strong> - Documentation</p>
+					<hr>
+					<div class="page-header">
+						<h4>Documentation</h4>
+						<ul>
+							<li>Created on: 30th May 2023</li>
+							<li>Developed by: <a target="_blank" href="https://dreamguys.co.in/">DreamGuy's Technologies</a>
+							</li>
+							<li>Support via email: <a href="mailto:admin@dreamguys.co.in">business@dreamguys.co.in</a>
+							</li>
+							<li>Support via Themeforest: <a target="_blank" href="https://themeforest.net/user/dreamguys/">Take me there</a></li>
+						</ul>					
+					</div>
+					<hr>			
+					<section id="features">
+						<h1>1. OVERVIEW</h1>
+						<p>HRMS Admin Template offers you the best template created by the latest version of React 18.2.0 with super responsive web design.
+							Mix supports several common CSS and JQuery. We have also added few reusable components which speedup your development.</p>
+						<h4>1. 1. Features</h4>
+						<ul class="feature-list">
+							<li><span>Login & Register:</span> Functionality Implemented.</li>
+
+							<li>Calling Methods Changed.</li>
+
+							<li>Components Splitted.</li>
+
+							<li> Hooks added.</li>
+							<li> React plugins.</li>
+							<li>No jquery</li>					
+							<li><span>React version:</span>18.2.0</li>	
+						</ul>
+					</section>
+					<section id="installation">
+						<h4>1. 2. Installation Guide</h4>
+						<ul>
+							<p>Given below are the steps you need to follow, to install the HRMS Admin Template - React on
+								your system:</p>
+							<p><strong>Step 1: </strong>Open the terminal in your root
+								directory &amp; to create
+								the project run the following command:</p>
+							<div class="prism-show-language"></div>
+							<pre
+								class=" mb-1 language-php"><code class>npx<span class="token space"> </span>create-react-app<span class="token space"> </span>Project_name</code></pre>
+							<!-- step 3 -->
+							<p class="step-3"><strong>Step 2: </strong>By running the following command, you
+								will be able to get all the dependencies in
+								your node_modules folder:</p>
+							<div class="prism-show-language"></div>
+							<pre
+								class=" mb-1 language-php"><code class>npm<span class="token space"> </span>install (or) npm install --legacy-peer-deps</code></pre>
+							<!-- step 4 -->
+							<p class="step-4"><strong>Step 3: </strong>To run the project, you need to run
+								following command in the project directory. It
+								will compile the jsx files &amp; all the other project files. If you are making
+								any changes in any of the .jsx file then you need to save the file, it will automatically consider this command and run the entire code.</p>
+							<div class="prism-show-language"></div>
+							<pre
+								class=" mb-1 language-php"><code>npm<span class="token space"> </span>run<span class="token space"> </span>dev (or) npm start</code></pre>
+							<p class="step-5"><strong>Step 4: </strong>To install any plugins in your application, you have to run the following command</p>
+							<div class="prism-show-language"></div>
+							<pre
+								class=" mb-1 language-php"><code class>npm<span class="token space"> </span>install<span class="token space"> </span>plugin_name<span class="token space"> </span>--save (or) npm install plugin_name --legacy-peer-deps</code>
+								
+</pre>
+							
+							<p><strong>Building for Production: </strong>If you want to run the project and make
+								the build in the production
+								mode then run the following command in the root directory, otherwise the project
+								will continue to run in the
+								development mode.</p>
+							<div class="prism-show-language"></div>
+							<pre
+								class=" mb-1 language-php"><code class>npm<span class="token space"> </span>run<span class="token space"> </span>build</code></pre>
+								<p><strong>For Example</p>
+								<pre
+									class=" mb-1 language-php"><code class>http://localhost:3001</code></pre>
+					</section>
+					<section id="requirements">
+						<h4>1. 3. Requirements</h4>
+						<ul class="mt-3">
+							<li><a href="https://reactjs.org/">React</a> &gt;=18.2.0</li>
+							<li>Node : "v18.16.0"</li>
+							<li>Node js Package</li>
+							<li>Yarn package (Optional)</li>
+							<li><a href="https://code.visualstudio.com/download">Visual Studio Code</a></li>
+							<li>Terminal</li>
+						</ul>
+					
+					</section>
+								
+					<section id="file_structure">
+						<h1>2. STRUCTURE</h1>
+						<h4>2. 1. File Structure</h4>
+						<p> Extract the zip file you received after purchase and you would find the exact below files and folders: </p>
+						<div class="file-wrap">
+						
+<pre><i class="fas fa-folder"></i><span>smarthrreact-internal/ </span>
+	│
+	└──<i class="fas fa-folder"></i><span> template/ </span>  
+		│
+		└──<i class="fas fa-folder"></i><span> node_modules/ </span>         
+		│
+		└── <i class="fas fa-folder"></i><span>public/  </span>             
+			│
+			└── <i class="fas fa-file text-blue"></i><span>favicon.png/ </span>       
+			│
+			└── <i class="fas fa-file text-blue"></i><span>index.html/   </span>              
+		│
+		└── <i class="fas fa-folder"></i><span>src/  </span>              
+			│
+			└── <i class="fas fa-folder"></i><span>assets/</span>   
+				│
+				└── <i class="fas fa-folder"></i><span>img/</span>   
+					│
+					└── <i class="fas fa-file text-blue"></i><span>logo.png/ </span> 
+			│
+			└──<i class="fas fa-folder"></i><span> components/ </span>     
+			│
+			└── <i class="fas fa-folder"></i><span>Entryfile</span>
+			│
+			└── <i class="fas fa-folder"></i><span>Initialpage </span>       
+			│
+			└── <i class="fas fa-folder"></i><span>Mainpage</span> 
+			│
+			└── <i class="fas fa-folder"></i><span> router_service</span> 
+			│
+			└── <i class="fas fa-file text-blue"></i><span>index/</span> 
+		│
+		└── <i class="fas fa-file text-blue"></i><span>.gitignore/   </span> 
+		│
+		└── <i class="fas fa-file text-blue"></i><span>.babelrc/   </span> 
+		│
+		└── <i class="fas fa-file text-blue"></i><span>package.json/   </span> 
+		│
+		└── <i class="fas fa-file text-blue"></i><span>webpack.config.js/   </span> 
+		│
+		└── <i class="fas fa-file text-blue"></i><span>README.md   </span> 
+		│
+		└── <i class="fas fa-file text-blue"></i><span>yarn-lock  </span>
+	
+	│
+	└── <i class="fas fa-folder"></i><span>template-rtl/ </span>
+	│
+	└── <i class="fas fa-folder"></i><span>documentation/ </span>
+</pre>
+						</div>
+					</section>
+				
+				
+				
+					<section id="css_structure">
+						<h4>2. 2. Styles</h4>				
+						<p>We have used this stylesheet for this template. You can customize the style.css</p>										
+						<div class="structure-wrap mb-4">
+<pre><code>&lt;link rel="stylesheet" href="/src/assets/css/bootstrap.min.css"&gt;
+&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"&gt;
+&lt;link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css"&gt;
+&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.4/jquery-jvectormap.css"&gt;
+&lt;link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"&gt;
+&lt;link rel="stylesheet" href="assets/plugins/datepicker/css/bootstrap-datepicker.min.css"&gt;
+&lt;link rel="stylesheet" href="/src/assets/css/select2.min.css"&gt;
+&lt;link rel="stylesheet" href="/src/assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css"&gt;
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css"&gt;
+&lt;link rel="stylesheet" href="assets/css/style.css"&gt;
+</code></pre>
+						</div>					
+					</section>	
+					
+					<section id="scripts">
+						<h4>2. 3.JavaScripts</h4>
+						<p>We have used this javascript for this template. You can customize the app.js</p>
+						<div class="structure-wrap mb-4">							
+<pre><code>
+&lt;script src="assets/js/popper.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/plugins/bootstrap/js/bootstrap.min.js"&gt;&lt;/script&gt;
+&lt;script src="Assets/js/multiselect.min.js"&gt;&lt;/script&gt;
+&lt;script src="Assets/js/app.js"&gt;&lt;/script&gt;
+</code></pre>
+						</div>
+					</section>
+
+						
+					<section id="credits" class="mb-30">
+						<h1>3. CREDITS</h1>
+						<p>We've used the following resources as listed. These are some awesome creation and we are thankful to the community.</p>
+						<ul class="credit-list">
+							<li><a target="_blank" href="http://getbootstrap.com/">Bootstrap</a></li>
+							<li><a target="_blank" href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a></li>
+							<li><a target="_blank" href="https://select2.org/">Select2</a></li>
+							<li><a target="_blank" href="https://github.com/Eonasdan/bootstrap-datetimepicker">Date Timepicker</a></li>
+							<li><a target="_blank" href="http://www.google.com/fonts">Google Fonts</a></li>
+							<li><a target="_blank" href="https://morrisjs.github.io/morris.js/">Morris</a></li>
+							<li><a target="_blank" href="https://summernote.org/">Summernote</a></li>
+							<li><a target="_blank" href="http://fancybox.net/">Fancy Box</a></li>
+							<li><a target="_blank" href="https://www.dropzone.dev/js/">Dropzone Js</a></li>						
+							<li><a target="_blank" href="https://fullcalendar.io/">Full Calendar</a></li>
+							<li><a target="_blank" href="https://momentjs.com/">Moment JS</a></li> 
+							<li><a target="_blank" href="https://popper.js.org/">Popper JS</a></li>
+						</ul>
+					</section>
+					<!-- <section id="changelog"  class="mb-30">
+						<h1>4. CHANGE LOG</h1>
+						<span class="badge bg-secondary">v1.4.6</span>
+						<span class="badge bg-success">30 May, 2023</span>
+						<div class="highlight-box">
+							<p class="mb-0"> Node v18.16.0 upgraded</p>
+							<p class="mb-0">Packages updated</p>
+							<p class="mb-0">Design issues fixed</p>
+
+						</div>
+					</section> -->
+					<section id="support" class="mb-30">
+						<h1>4. SUPPORT</h1>
+						<p class="mb-0">If you have any queries please contact us through email: <strong>business@dreamguys.co.in</strong>
+						</p>
+					</section>
+					<section id="thanks" class="mb-0">
+						<h1>5. THANK YOU</h1>
+						<p>Thank you so much for using this template</p>
+						<a target="_blank" href="https://themeforest.net/user/dreamguys"><strong>Dreamguy's Technologies Pvt Ltd,</strong></a>
+					</section>
+				</div>
+			</div>
+		
+			<!-- Footer -->
+			<footer class="footer">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-sm-12">
+							<p class="mb-0">© 2023 Smart Hr. All rights reserved.</p>
+						</div>
+						<a href="#" class="top-move"><i class="fas fa-arrow-up"></i></a>
+					</div>
+				</div>
+			</footer>
+			<!-- /footer -->
+				
+		</div>
+		<!-- /Main Wrapper -->
+		
+		<script src="assets/js/jquery-3.6.0.min.js"></script>
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+		
+		<!-- Slimscroll JS -->
+		<script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+		
+		<script src="assets/js/script.js"></script>
+	
+		
+	</body>
+</html>
